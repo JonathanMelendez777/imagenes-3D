@@ -1,0 +1,39 @@
+body {
+	background-color:#000000;
+	background-size: cover;
+	background-position: center;
+	padding-top: 20px;
+
+}
+/* Container Area */ 
+.jumbotron {
+	color: #ffa875;
+	background-color: #1d1d1d;
+	border: 1px solid #383d41;
+	margin-top: 10px;
+}
+/* .container{
+	width:90%
+	margin:10px auto;
+} */
+.portfolio-menu{
+	text-align:center;
+}
+.portfolio-menu ul li{
+	display:inline-block;
+	margin:0;
+	list-style:none;
+	padding:10px 15px;
+	cursor:pointer;
+	-webkit-transition:all 05s ease;
+	-moz-transition:all 05s ease;
+	-ms-transition:all 05s ease;
+	-o-transition:all 05s ease;
+	transition:all .5s ease;
+}
+
+.portfolio-item .item{
+	/*width:303px;*/
+	float:left;
+	margin-bottom:10px;
+}
